@@ -1,3 +1,3 @@
 return {
-	cmd = { 'C:/Users/Nikki/AppData/Local/nvim/temp/dist/lang_server_windows.cmd' },
+	cmd = { (os.getenv('LOCALAPPDATA') or '~/.config/')..'/nvim/temp/dist/lang_server_windows.cmd' },
 }
